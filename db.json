@@ -1,0 +1,59 @@
+{
+    "conteudos": [
+        {
+            "id": 1,
+            "titulo": "Enigma - Alan Turing",
+            "descricao": "Considerado uma das mentes mais brilhantes do século passado, Alan Turing desenvolveu a base da computação moderna.",
+            "urlImg": "https://warren.com.br/magazine/wp-content/webp-express/webp-images/uploads/2022/02/alan-turing-2-1024x684.jpg.webp",
+            "urlConteudo": "https://warren.com.br/magazine/alan-turing/"
+        },
+        {
+            "id": 2,
+            "titulo": "Ada Lovelace",
+            "descricao": "Ada Lovelace, marcou a história ao escrever o primeiro algoritmo para ser processado em uma máquina.",
+            "urlImg": "https://assets-global.website-files.com/645ec33132ea3208caf0adb9/6504c5015027cbb5c4d9e31a_Ada-Lovelace-iQ-980x653.jpg",
+            "urlConteudo": "https://institucional.hurb.com/artigos/ada-lovelace-a-primeira-programadora-da-historia"
+        },
+        {
+            "id": 3,
+            "titulo": "Dennis Ritchie",
+            "descricao": "Dennis MacAlistair Ritchie, foi o cientista da computação responsável pela criação de uma das linguagens de programação mais importantes da atualidade: a linguagem de programação C.",
+            "urlImg": "https://media.cnn.com/api/v1/images/stellar/prod/111014015647-dennis-ritchie-ken-thompson-bell-labs.jpg?q=w_2606,h_2087,x_0,y_0,c_fill",
+            "urlConteudo": "https://horizontes.sbc.org.br/index.php/2021/12/dennis-m-ritchie-humildade-e-genialidade/"
+        },
+        {
+            "id": 4,
+            "titulo": "Margaret Hamilton",
+            "descricao": "Margaret Hamilton, é uma cientista de computação e engenheira responsável por criar o programa de voo utilizado na Apollo 11 (a primeira missão tripulada à Lua).",
+            "urlImg": "https://s2.glbimg.com/NylfFWK_DCe1IXdYSk4THjEXDUY=/e.glbimg.com/og/ed/f/original/2015/07/20/margaret_hamilton_1.jpg",
+            "urlConteudo": "https://movimentomulheresnati.labbs.com.br/margaret-hamilton/"
+        },
+        {
+            "id": 5,
+            "titulo": "Elizabeth Smith Friedman",
+            "descricao": "Em 1930, Elizabeth Smith Friedman tornou-se a mais conhecida criptoanalista do mundo. Ela foi responsável por descriptografar mensagens de mafiosos numa seção de jornal.",
+            "urlImg": "https://cdn.jwplayer.com/v2/media/aK3anwaP/poster.jpg?width=720",
+            "urlConteudo": "https://www.megacurioso.com.br/artes-cultura/124109-os-feitos-incriveis-de-elizebeth-friedman-a-mae-da-criptologia.htm"
+        }
+    ],
+    "colegas": [
+        {
+            "id": 1,
+            "urlFoto": "https://avatars.githubusercontent.com/u/143196305?v=4",
+            "nome": "Apolo Bagattini",
+            "urlPerfil": "https://github.com/apolobagattini"
+        },
+        {
+            "id": 2,
+            "urlFoto": "https://avatars.githubusercontent.com/u/113612000?v=4",
+            "nome": "Luis Henrique",
+            "urlPerfil": "https://github.com/LuisHenriqueDC301"
+        },
+        {
+            "id": 3,
+            "urlFoto": "https://avatars.githubusercontent.com/u/118578816?v=4",
+            "nome": "Matheus Greco",
+            "urlPerfil": "https://github.com/GRECO-flameel"
+        }
+    ]
+}

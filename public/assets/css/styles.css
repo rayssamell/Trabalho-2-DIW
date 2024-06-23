@@ -1,0 +1,265 @@
+/* Definições gerais */
+
+html{
+    height: 100%;
+}
+
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0 20px;
+}
+/* Definições gerais - FIM */
+
+/*  CSS CABEÇALHO - INICIO */
+a{
+    /* Tira os tracinhos que ficam no link*/ 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(31, 159, 202);
+}
+
+.header{
+    background-color: #ffff;
+    display: flex; 
+    /*os itens do menu alinham do lado direito */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;  
+}
+
+/* os itens dos menu ficam um ao lado do outro*/
+.menu{
+    display: flex;
+}
+
+ul{
+    margin-right: 30px;
+}
+/* Tirar a bolinha do li*/
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user{
+   box-sizing: border-box;
+   background-color: rgb(231, 227, 227); 
+   padding: 10px;
+   margin: 5px 15px 8px;
+   font-weight: bolder;
+   font-size: 1.1rem;
+}
+
+/*  END CABEÇALHO */
+
+/*  Conteudo */ 
+h3{
+    margin-left: 27px;
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.section1{
+    display: flex;
+    margin: 5px;
+}
+
+.img-perfil{
+    width: 100%;
+    max-width: 350px;
+    margin: 5px 20px 20px 15px;
+    border-radius: 10px;
+    border: solid 5px rgb(231, 231, 231);
+}
+
+.inform-perfil{
+    margin: 10px 13px;
+}
+
+.nome{
+    color: rgb(31, 171, 206);
+    margin: 5px 5px 15px 2px;;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 5px 6px 5px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+hr {
+    margin: 10px 20px 0;
+    border: solid 1px;
+    width: 97%;
+}
+
+.row{
+    margin: 5px 15px 20px 20px;
+}
+
+.informacoes-repo {
+    margin: 15px 15px 27px 27px;
+}
+
+h6{
+    color: rgb(39, 174, 207);
+    font-weight: bold;
+}
+
+.btn{
+    border-radius: 15px !important;
+    color: white !important;
+    border: solid rgb(39, 174, 207)!important;
+    background-color: rgb(39, 174, 207)!important;
+    margin: 0 10px;
+    padding: 8px;
+
+}
+
+.carousel{
+    margin: 20px auto;
+    width: 60%;
+}
+
+#site{
+    background-color: rgba(233, 227, 227, 0.808);
+    padding: 10px;
+    margin: 0 27px;
+}
+
+.conteudo{
+    margin: 5px 25px;
+    padding: 8px;
+    background-color: rgb(245, 244, 244);
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 35px;
+    margin-left: 5px;
+
+}
+
+.repo{
+    margin: 5px 25px 50px;
+    padding: 8px;
+    background-color: rgb(236, 235, 235);
+}
+
+footer{
+    display: inline;
+}
+
+.container img{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+
+}
+
+.colegas{
+    margin: 10px 5px 12px 60px;
+    color: rgb(33, 148, 201);
+    font-family: 25x;
+}
+
+.card {
+    transition: transform .3s;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #91bdec;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.icon-perfil{
+    box-sizing: border-box;
+    margin-left: 110px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    gap: 60px;
+}
+
+.icon-container svg {
+    margin-right: 10px; /* Espaçamento entre os ícones */
+}
+
+.star-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L15.09 8.5 L22 9.26 L17 14.14 L18.18 21 L12 17.77 L5.82 21 L7 14.14 L2 9.26 L8.91 8.5 L12 2 z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.repo {
+    margin-bottom: 20px;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p.perfil{
+   align-items: center;
+    display: flex;
+    gap: 15px
+}

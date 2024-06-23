@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+
+    <!-- link para bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- link para css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- link para svg do ícone de estrela -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <a class="user" href="index.html">RAYSSA MELL DE SOUZA SILVA</a>
+        <nav>
+            <ul class="menu">
+                <li id="item1"><a href="index.html">Perfil</a></li>
+                <li id="item2"><a href="index.html">Repositórios</a></li>
+                <li id="item3"><a href="index.html">Conteúdo</a></li>
+                <li id="item3"><a href="index.html">Colegas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <!-- Conteúdo -->
+        <div class="repo" id="detail-repos">
+            <h3 class="repositorio-nome">Repositório: </h3>
+            <hr>
+            <section class="informacoes-repo">     
+                
+                <h6>Data de Criação:</h6>
+                <p id="data-criacao"></p>
+
+                <h6>Linguagem:</h6>
+                <p id="linguagem"></p>
+                
+                <h6>Link de acesso:</h6>
+                <a href="" id="link-acesso"></a> 
+
+                <div class="repo-info">
+                    <span class="followers">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="followers-count"><strong></strong></span>
+                    </span>
+                    <span class="stars">
+                         <i class="fa-solid fa-star" style="color: #8a8e93;">
+                        <span class="stars-count"><strong></strong></span>
+                    </span>
+                    <h6>Tópicos:</h6>
+                    <div class="repo-topics">
+                        <button type="button" class="btn btn-lg">JavaScript</button>
+                        <button type="button" class="btn btn-lg">HTML</button>
+                        <button type="button" class="btn btn-lg">Python</button>
+                        <button type="button" class="btn btn-lg">CSS</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="assets/scripts/app.js""></script>
+</body>
+    <!-- Rodapé -->
+    <footer class="footer py-2 bg-light mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <p>&copy; 2024 Rayssa Mell de Souza Silva</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
